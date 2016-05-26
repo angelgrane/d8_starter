@@ -1,0 +1,8 @@
+uuid: 6fd64e69-583a-481d-b8d7-9f0a08fd0e29
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+revision: 0
+description: "\r\nImage Review"
