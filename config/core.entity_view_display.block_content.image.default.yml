@@ -1,36 +1,31 @@
-uuid: 3d8ff4d9-de6a-42c4-82d7-456ef02b22ac
+uuid: 4ea2b722-e821-4764-87d3-d33f5b8f8132
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_image
-    - node.type.page
+    - block_content.type.image
+    - field.field.block_content.image.body
+    - field.field.block_content.image.field_image
   module:
     - image
     - text
-    - user
-_core:
-  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
-id: node.page.default
-targetEntityType: node
-bundle: page
+id: block_content.image.default
+targetEntityType: block_content
+bundle: image
 mode: default
 content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     settings: {  }
     third_party_settings: {  }
   field_image:
-    weight: 102
+    weight: 1
     label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
-  links:
-    weight: 101
 hidden: {  }
