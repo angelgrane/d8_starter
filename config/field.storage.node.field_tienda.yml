@@ -1,0 +1,48 @@
+uuid: f24c081b-f082-4982-a2e5-6d651b323bb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tienda
+field_name: field_tienda
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: Camisa
+    -
+      value: !!float 1
+      label: Pantalón
+    -
+      value: !!float 2
+      label: Zapatos
+    -
+      value: !!float 3
+      label: Short
+    -
+      value: !!float 4
+      label: Gorra
+    -
+      value: !!float 5
+      label: Camisetas
+    -
+      value: !!float 6
+      label: Camisolas
+    -
+      value: !!float 7
+      label: Bóxer
+    -
+      value: !!float 8
+      label: Calcetines
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

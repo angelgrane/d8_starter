@@ -1,0 +1,36 @@
+uuid: 896a1b03-e72e-4de3-868f-bb502337cd43
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tienda.body
+    - field.field.node.tienda.field_imagen
+    - field.field.node.tienda.field_m_w_b_g
+    - field.field.node.tienda.field_precio
+    - field.field.node.tienda.field_tienda
+    - field.field.node.tienda.field_tipo
+    - node.type.tienda
+  module:
+    - text
+    - user
+id: node.tienda.teaser
+targetEntityType: node
+bundle: tienda
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_imagen: true
+  field_m_w_b_g: true
+  field_precio: true
+  field_tienda: true
+  field_tipo: true

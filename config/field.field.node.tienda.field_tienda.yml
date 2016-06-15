@@ -1,0 +1,21 @@
+uuid: 0cfb4855-35a8-4e38-9167-8f43aa38d6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tienda
+    - node.type.tienda
+  module:
+    - options
+id: node.tienda.field_tienda
+field_name: field_tienda
+entity_type: node
+bundle: tienda
+label: Tienda
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

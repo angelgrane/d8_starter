@@ -1,0 +1,23 @@
+uuid: a35b7e7e-4c26-439b-b0a7-3b393fb78203
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio
+    - node.type.tienda
+id: node.tienda.field_precio
+field_name: field_precio
+entity_type: node
+bundle: tienda
+label: Precio
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

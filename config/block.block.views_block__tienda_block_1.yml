@@ -1,0 +1,24 @@
+uuid: b66d3788-d6e9-4d91-9727-99a7cf75935a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tienda
+  module:
+    - views
+  theme:
+    - sub_bootstrap
+id: views_block__tienda_block_1
+theme: sub_bootstrap
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:tienda-block_1'
+settings:
+  id: 'views_block:tienda-block_1'
+  label: 'Ultimo ingresado'
+  provider: views
+  label_display: visible
+  views_label: 'Ultimo ingresado'
+  items_per_page: none
+visibility: {  }

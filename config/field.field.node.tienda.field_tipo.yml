@@ -1,0 +1,23 @@
+uuid: a44dc93f-6b65-436c-a42f-7b9432028e72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo
+    - node.type.tienda
+  module:
+    - options
+id: node.tienda.field_tipo
+field_name: field_tipo
+entity_type: node
+bundle: tienda
+label: Tipo
+description: 'tienda is used by 5 pieces of content on your site. You may not remove tienda until you have removed all of the tienda content.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_float

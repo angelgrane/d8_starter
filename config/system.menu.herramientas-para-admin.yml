@@ -1,0 +1,8 @@
+uuid: 5ec23e18-5264-4426-b5d0-5f1d3bee2e0c
+langcode: en
+status: true
+dependencies: {  }
+id: herramientas-para-admin
+label: 'herramientas para admin'
+description: 'links que le sirven al administrador'
+locked: false

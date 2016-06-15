@@ -1,0 +1,27 @@
+uuid: f5d73a15-f25f-4d0e-9f1f-b3e05cd04c2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo
+field_name: field_tipo
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: Nueva
+    -
+      value: !!float 1
+      label: Usada
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
